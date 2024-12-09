@@ -43,9 +43,11 @@ Amplitude values are capped between 0 and 1 for safe operation.
 The project is written in C using the STM32 HAL library. Below are some core functions and concepts:
 
 ### 🌀 Sine Wave Table
-
+'''
 uint16_t sinewave[100] = { 0, 4, 16, 36, 64, 100, ... };
+'''
 
+Precomputed values for the sine wave are stored in an array for efficient generation.
 
 
 
