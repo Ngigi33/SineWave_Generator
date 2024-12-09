@@ -59,4 +59,23 @@ for (uint8_t i = 0; i < 100; i++) {
     microDelay(Delayer);
 }
 ```
+Iterates through the sinewave array, dynamically adjusting amplitude and delay for real-time control.
+
+
+## 🚀 Getting Started
+1. Clone the Project
+ Download or clone this project to your local environment.
+
+2. Setup Hardware
+    * Connect the encoder, buttons, and LED to the appropriate pins on the Nucleo board.
+    * Ensure the DAC output is connected to an oscilloscope or any audio playback device.
+3. Flash the Code
+   Use STM32CubeIDE or another compatible IDE to flash the firmware to your Nucleo F446RE board.
+
+4. Run and Adjust
+    * Rotate the encoder to change the frequency.
+    * Press buttons to modify the amplitude.
+
+
+
 
