@@ -43,11 +43,20 @@ Amplitude values are capped between 0 and 1 for safe operation.
 The project is written in C using the STM32 HAL library. Below are some core functions and concepts:
 
 ### 🌀 Sine Wave Table
-```c
+```C
 uint16_t sinewave[100] = { 0, 4, 16, 36, 64, 100, ... };
 ```
-
 Precomputed values for the sine wave are stored in an array for efficient generation.
 
+### ⏱️ Timer-Based Frequency Control
+The encoder leverages Timer 3 in encoder mode to track rotational input, while Timer 2 provides precise microsecond delays for waveform timing.
 
+### 🔄 Main Loop
+```C
+for (uint8_t i = 0; i < 100; i++) {
+    int var = (int)(((gain)*(float)sinewave[i]));
+    HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, var);
+    microDelay(Delayer);
+}
+```
 
