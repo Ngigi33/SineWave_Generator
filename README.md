@@ -1,1 +1,1 @@
-###Sine Wave Generator with Adjustable Amplitude and Frequency
+### Sine Wave Generator with Adjustable Amplitude and Frequency
