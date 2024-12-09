@@ -11,8 +11,9 @@ Whether you're into audio experiments, signal generation, or simply exploring th
 
 
 ## 🔧 Hardware Used
-1. Microcontroller: Nucleo F446RE
+1. Microcontroller: Nucleo F446RE:
+   
     * DAC Output Pin: PA4 (STM32 pin) / A2 (Nucleo board pin).
-2. Encoder: Operates in Timer 3's encoder mode.
-3. Two Buttons: For increasing and decreasing the amplitude.
-4. LED: Visual feedback for button presses.
+3. Encoder: Operates in Timer 3's encoder mode.
+4. Two Buttons: For increasing and decreasing the amplitude.
+5. LED: Visual feedback for button presses.
