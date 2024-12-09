@@ -38,3 +38,14 @@ Amplitude values are capped between 0 and 1 for safe operation.
 * Real-Time Frequency Tuning: Encoder alters delay intervals.
 * Error Handling: Prevents out-of-bound values for both amplitude and frequency.
   
+
+## ⚙️ Software Overview
+The project is written in C using the STM32 HAL library. Below are some core functions and concepts:
+
+### 🌀 Sine Wave Table
+
+uint16_t sinewave[100] = { 0, 4, 16, 36, 64, 100, ... };
+
+
+
+
