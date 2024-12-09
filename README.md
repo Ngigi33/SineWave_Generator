@@ -76,6 +76,28 @@ Iterates through the sinewave array, dynamically adjusting amplitude and delay f
     * Rotate the encoder to change the frequency.
     * Press buttons to modify the amplitude.
 
+## 🛠️ Hardware Pinout
+| Component         | 	Pin (STM32)  | Pin (Nucleo) |
+| ----------------- |:-------------:| ------------:|
+| DAC Output        | PA4           | A2           |
+| Encoder Channel A | PA6           | D11          |
+|Encoder Channel B  | PA7           | D12          |
+| Button 1          | PC13          |  -           |
+| Button 2          | PA8           |  -           |
+|LED                | PA8           |  -           |
 
+![Screenshot 2024-12-09 082235](https://github.com/user-attachments/assets/77b7a940-d925-4c79-b79c-0912aa20f5da)
+
+
+## 🌟 Fun Facts
+* This project is modular—you can replace the sine wave with other waveforms (triangle, square, etc.).
+* Great for beginners exploring STM32 DACs or timers.
+* Works as an excellent intro to digital-to-analog conversion and signal processing.
+
+  ![Sinewave generator circuit pic](https://github.com/user-attachments/assets/aa111dc6-f094-481b-989c-e3ac0dbecfd0)
+
+
+
+https://github.com/user-attachments/assets/911ee023-2d2d-49af-95d3-a2fe81e52fb7
 
 
