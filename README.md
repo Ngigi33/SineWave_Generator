@@ -31,3 +31,10 @@ Amplitude values are capped between 0 and 1 for safe operation.
 
 ### 3️⃣ Frequency Control
 * Encoder: Adjusts the sine wave frequency by changing the time delay between DAC updates.
+
+## 📜 Features
+* Smooth Sine Wave Generation: Uses a 12-bit DAC resolution for clean output.
+* Dynamic Amplitude Adjustment: Real-time control with gain values.
+* Real-Time Frequency Tuning: Encoder alters delay intervals.
+* Error Handling: Prevents out-of-bound values for both amplitude and frequency.
+  
