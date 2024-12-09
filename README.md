@@ -29,5 +29,5 @@ The DAC output generates the sine wave, which is sampled over 100 discrete point
 * Button 2: Decreases amplitude.
 Amplitude values are capped between 0 and 1 for safe operation.
 
-###3️⃣ Frequency Control
-*Encoder: Adjusts the sine wave frequency by changing the time delay between DAC updates.
+### 3️⃣ Frequency Control
+* Encoder: Adjusts the sine wave frequency by changing the time delay between DAC updates.
